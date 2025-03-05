@@ -2,7 +2,7 @@
 FROM python:3.11.5
 
 WORKDIR /app
-COPY requirements.txt /app
+COPY dev-requirements.txt /app/requirements.txt
 COPY *.py /app
 COPY pyproject.toml /app
 
